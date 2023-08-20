@@ -1,0 +1,44 @@
+/* app.css */
+
+/* Colores */
+:root {
+  --color-primario: #336699;
+  --color-secundario: #FF9900;
+  --color-terciario: #66CC66;
+  --color-texto: #333;
+  --color-fondo: #F4F4F4;
+}
+
+/* Tipografía */
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Tamaños de texto */
+.texto-pequeno {
+  font-size: 11.2px;
+}
+
+.texto-mediano {
+  font-size: 14px;
+}
+
+.texto-grande {
+  font-size: 17.5px;
+}
+
+.texto-muy-grande {
+  font-size: 21.88px;
+}
+
+.texto-enorme {
+  font-size: 27.34px;
+}
+
+.texto-gigante {
+  font-size: 34.18px;
+}

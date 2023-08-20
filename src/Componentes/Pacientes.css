@@ -1,0 +1,82 @@
+/* Estilos para el componente Pacientes */
+
+.pacientes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #fff;
+    color: #336699;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #66cc66; /* Fondo verde manzana */
+    color: #ffffff; /* Texto en blanco */
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .header h2 {
+    margin-bottom: 10px;
+  }
+  
+  .button-link {
+    background-color: #336699; /* Fondo azul */
+    color: #ffffff; /* Texto en blanco */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .info-box {
+    background-color: #66cc66; /* Fondo verde manzana */
+    color: #336699; /* Texto en azul */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1;
+    transition: background-color 0.3s, color 0.3s; /* Transición suave de colores */
+  }
+  
+  .info-box:hover {
+    background-color: #336699; /* Cambia a fondo azul al pasar el cursor */
+    color: #ffffff; /* Cambia a texto blanco al pasar el cursor */
+  }
+  
+  .edit-button {
+    background-color: #336699; /* Fondo azul */
+    color: #ffffff; /* Texto en blanco */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s, color 0.3s; /* Transición suave de colores */
+  }
+  
+  .edit-button:hover {
+    background-color: #66cc66; /* Cambia a fondo verde manzana al pasar el cursor */
+  }
+  
+  /* Consultas de medios para hacerlo respons
+  
